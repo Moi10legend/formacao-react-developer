@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Defina o nome que quiser. Exemplo: 'brand' (marca) ou 'primary' */
+  --color-brand: #646cff;
+  --color-brand-dark: #3b42a3;
+  --color-gray-button: #565656;
+}
+
+@layer base{
+    *{
+        color: white;
+    }
+}
