@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <main className='bg-blue-600 w-dvw h-dvh flex items-center justify-center'>
-        <form onSubmit={handleSubmit(handleLogin)} className='bg-amber-50 w-128 p-16 rounded-2xl'>
+        <form onSubmit={handleSubmit(handleLogin)} className='bg-amber-50 w-lg p-16 rounded-2xl'>
           <h1 className="mb-8 text-2xl font-bold">Login</h1>
           <Input 
           labelText="Email:" 
